@@ -4,7 +4,9 @@
   "description": "Steps to check when starting, working and publishing a module to NPM",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-issues && commit-wizard",
+    "issues": "git-issues"
   },
   "repository": {
     "type": "git",
@@ -27,5 +29,18 @@
   "bugs": {
     "url": "https://github.com/bahmutov/npm-module-checklist/issues"
   },
-  "homepage": "https://github.com/bahmutov/npm-module-checklist#readme"
+  "homepage": "https://github.com/bahmutov/npm-module-checklist#readme",
+  "config": {
+    "pre-git": {
+      "commit-msg": "validate-commit-msg",
+      "pre-commit": [],
+      "pre-push": [],
+      "post-commit": [],
+      "post-merge": []
+    }
+  },
+  "devDependencies": {
+    "git-issues": "1.2.0",
+    "pre-git": "1.3.1"
+  }
 }

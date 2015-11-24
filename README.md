@@ -7,6 +7,8 @@
 - [ ] validate commit message using [pre-git][pre-git] or [commitizen][commitizen]. This
 enables other tools, like intelligent release notes.
 
+- [ ] show the project's GitHub open issues on demand or on commit using [git-issues][git-issues]
+
 - [ ] setup continuous integration server, like [TravisCI][travis] or [CircleCI][circle].
 
 - [ ] check module published size and white list only necessary files, [tutorial][module size]
@@ -25,6 +27,8 @@ or [fixpack][fixpack]
 [ghooks]: https://www.npmjs.com/package/ghooks
 
 [commitizen]: https://www.npmjs.com/package/commitizen
+
+[git-issues]: https://www.npmjs.com/package/git-issues
 
 [travis]: https://travis-ci.org/
 [circle]: https://circleci.com/
