@@ -4,9 +4,9 @@
 You can add the included [CHECKLIST.md](CHECKLIST.md) into your project,
 or copy it into your README.md; then check items off as you go. And there is a badge!
 
-## Checklist
 ![checklist badge](https://img.shields.io/badge/follows-checklist-brightgreen.svg)
 
+## Checklist
 
 - [ ] watch the [egghead.io](https://egghead.io) series [How to Write an Open Source JavaScript Library](https://egghead.io/series/how-to-write-an-open-source-javascript-library);
 it is extremely useful for any NPM project (OSS or closed-sourced).
