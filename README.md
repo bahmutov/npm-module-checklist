@@ -2,6 +2,8 @@
 
 > Steps to check when starting, working and publishing a module to NPM
 
+- [ ] watch the [egghead.io][egghead] series [How to Write an Open Source JavaScript Library][egghead series]
+
 - [ ] start unit testing right away, [pick your unit testing framework][pick testing framework]
 
 - [ ] start linting code to prevent obvious problems, like misspelled variable. 
@@ -34,6 +36,9 @@ Use [save-exact][save-exact] NPM setting and [exact-semver][exact-semver] to enf
 
 - [ ] catch missing or invalid `package.json` values using [grunt-nice-package][grunt-nice-package] 
 or [fixpack][fixpack]
+
+[egghead]: https://egghead.io
+[egghead series]: https://egghead.io/series/how-to-write-an-open-source-javascript-library
 
 [pick testing framework]: http://glebbahmutov.com/blog/picking-javascript-testing-framework/
 
