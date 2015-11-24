@@ -2,6 +2,12 @@
 
 > Steps to check when starting, working and publishing a module to NPM
 
+- [ ] start unit testing right away, [pick your unit testing framework][pick testing framework]
+
+- [ ] start linting code to prevent obvious problems, like misspelled variable. 
+[eslint][eslint], [jshint][jshint], [jscs][jscs] or all of them together 
+[gulp-lint-everything][gulp-lint-everything]
+
 - [ ] run linting and unit tests on each commit locally. [pre-git][pre-git], [ghooks][ghooks]
 
 - [ ] validate commit message using [pre-git][pre-git] or [commitizen][commitizen]. This
@@ -22,6 +28,13 @@ Use [save-exact][save-exact] NPM setting and [exact-semver][exact-semver] to enf
 
 - [ ] catch missing or invalid `package.json` values using [grunt-nice-package][grunt-nice-package] 
 or [fixpack][fixpack]
+
+[pick testing framework]: http://glebbahmutov.com/blog/picking-javascript-testing-framework/
+
+[eslint]: http://eslint.org/
+[jshint]: http://jshint.com/docs/
+[jscs]: http://jscs.info/
+[gulp-lint-everything]: https://github.com/bahmutov/gulp-lint-everything
 
 [pre-git]: https://github.com/bahmutov/pre-git
 [ghooks]: https://www.npmjs.com/package/ghooks
