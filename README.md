@@ -35,6 +35,8 @@ but is currently [broken][broken semver] in too many projects. Even this checkli
 - [ ] avoid surprizes by using exact versions of the top level dependencies. 
 Use [save-exact][save-exact] NPM setting and [exact-semver][exact-semver] to enforce it.
 
+- [ ] setup a script to reliably update out of date dependencies using [next-update][next-update install]
+
 - [ ] catch missing or invalid `package.json` values using [grunt-nice-package][grunt-nice-package] 
 or [fixpack][fixpack]
 
@@ -71,6 +73,8 @@ or [fixpack][fixpack]
 
 [save-exact]: https://docs.npmjs.com/misc/config#save-exact
 [exact-semver]: https://github.com/bahmutov/exact-semver
+
+[next-update install]: https://github.com/bahmutov/next-update#install
 
 [grunt-nice-package]: https://github.com/bahmutov/grunt-nice-package
 [fixpack]: https://github.com/henrikjoreteg/fixpack
