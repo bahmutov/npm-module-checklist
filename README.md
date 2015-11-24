@@ -4,7 +4,7 @@
 You can add the included [CHECKLIST.md](CHECKLIST.md) into your project,
 or copy it into your README.md; then check items off as you go. And there is a badge!
 
-[![checklist badge][badge]](https://github.com/bahmutov/npm-module-checklist)
+[![checklist badge](https://img.shields.io/badge/follows-checklist-brightgreen.svg)](https://github.com/bahmutov/npm-module-checklist)
 
 ## Checklist
 
