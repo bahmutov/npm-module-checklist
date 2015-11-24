@@ -10,7 +10,7 @@
 
 - [ ] run linting and unit tests on each commit locally. [pre-git][pre-git], [ghooks][ghooks]
 
-- [ ] validate commit message using [pre-git][pre-git] or [commitizen][commitizen]. This
+- [ ] validate commit message using [pre-git][pre-git] or [commitizen][commitizen] with [validate-commit-msg][validate-commit-msg]. This
 enables other tools, like intelligent release notes.
 
 - [ ] show the project's GitHub open issues on demand or on commit using [git-issues][git-issues]
@@ -40,6 +40,8 @@ or [fixpack][fixpack]
 [ghooks]: https://www.npmjs.com/package/ghooks
 
 [commitizen]: https://www.npmjs.com/package/commitizen
+
+[validate-commit-msg]: https://www.npmjs.com/package/validate-commit-msg
 
 [git-issues]: https://www.npmjs.com/package/git-issues
 
