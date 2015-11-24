@@ -8,6 +8,9 @@
     "commit": "git-issues && commit-wizard",
     "issues": "git-issues"
   },
+  "contributors": [
+    "Kent C. Dodds https://github.com/kentcdodds"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bahmutov/npm-module-checklist.git"

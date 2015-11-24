@@ -69,6 +69,11 @@ or [fixpack][fixpack]
 [grunt-nice-package]: https://github.com/bahmutov/grunt-nice-package
 [fixpack]: https://github.com/henrikjoreteg/fixpack
 
+## Contributors
+
+* Kent C. Dodds [@kentcdodds](https://github.com/kentcdodds)
+* Gleb Bahmutov [@bahmutov](https://github.com/bahmutov)
+
 ### Small print
 
 Author: Gleb Bahmutov &copy; 2015
