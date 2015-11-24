@@ -8,7 +8,8 @@
     "test": "npm run nice",
     "commit": "git-issues && commit-wizard",
     "issues": "git-issues",
-    "nice": "grunty grunt-nice-package nice-package"
+    "nice": "grunty grunt-nice-package nice-package",
+    "next-update": "next-update -k true"
   },
   "contributors": [
     "Kent C. Dodds https://github.com/kentcdodds"
@@ -55,7 +56,8 @@
     "git-issues": "1.2.0",
     "grunt-nice-package": "0.9.4",
     "grunty": "0.2.0",
+    "next-update": "0.9.5",
     "pre-git": "1.3.1",
-    "update-markdown": "1.1.2"
+    "update-markdown": "1.1.3"
   }
 }
