@@ -17,6 +17,12 @@ enables other tools, like intelligent release notes.
 
 - [ ] setup continuous integration server, like [TravisCI][travis] or [CircleCI][circle].
 
+- [ ] [add badges][badges] to the README to make broken unit tests or out of date dependencies visible
+  * ci server badge
+  * published NPM package info
+  * production and dev dependencies being out of date
+  * semantic release badge
+
 - [ ] check module published size and white list only necessary files, [tutorial][module size]
 
 - [ ] setup [semantic-release][semantic-release] to automate publishing
@@ -47,6 +53,8 @@ or [fixpack][fixpack]
 
 [travis]: https://travis-ci.org/
 [circle]: https://circleci.com/
+
+[badges]: http://glebbahmutov.com/blog/tightening-node-project/
 
 [module size]: http://glebbahmutov.com/blog/smaller-published-NPM-modules/
 
