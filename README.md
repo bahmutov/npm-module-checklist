@@ -15,7 +15,7 @@ enables other tools, like intelligent release notes.
 
 - [ ] show the project's GitHub open issues on demand or on commit using [git-issues][git-issues]
 
-- [ ] setup continuous integration server, like [TravisCI][travis] or [CircleCI][circle].
+- [ ] setup continuous integration server, like [TravisCI][travis] or [CircleCI][circle] (or wait until you set up [semantic-release][semantic-release] which will set up [TravisCI][travis] for you).
 
 - [ ] [add badges][badges] to the README to make broken unit tests or out of date dependencies visible
   * ci server badge
