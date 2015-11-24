@@ -1,0 +1,31 @@
+{
+  "name": "npm-module-checklist",
+  "version": "1.0.0",
+  "description": "Steps to check when starting, working and publishing a module to NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/npm-module-checklist.git"
+  },
+  "keywords": [
+    "npm",
+    "module",
+    "package",
+    "publish",
+    "testing",
+    "checklist",
+    "check",
+    "quality",
+    "good",
+    "practice"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/npm-module-checklist/issues"
+  },
+  "homepage": "https://github.com/bahmutov/npm-module-checklist#readme"
+}
