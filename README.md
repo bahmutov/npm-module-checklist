@@ -2,11 +2,11 @@
 > Steps to check when starting, working and publishing a module to NPM
 
 You can add the included [CHECKLIST.md](CHECKLIST.md) into your project,
-or copy it into your README.md; then check items off as you go.
-You can even keep it separate and just update the README as part of the build
-using [update-markdown](https://github.com/bahmutov/update-markdown).
+or copy it into your README.md; then check items off as you go. And there is a badge!
 
 ## Checklist
+![checklist badge](https://img.shields.io/badge/follows-checklist-brightgreen.svg)
+
 
 - [ ] watch the [egghead.io](https://egghead.io) series [How to Write an Open Source JavaScript Library](https://egghead.io/series/how-to-write-an-open-source-javascript-library);
 it is extremely useful for any NPM project (OSS or closed-sourced).
@@ -35,6 +35,10 @@ Use [save-exact](https://docs.npmjs.com/misc/config#save-exact) NPM setting and 
 or [fixpack](https://github.com/henrikjoreteg/fixpack)
 
 Source: [npm-module-checklist](https://github.com/bahmutov/npm-module-checklist)
+
+## Advanced
+If you include the separate checklist file, you can automatically insert / update it inside the README.
+Setup the markdown update as a step in your build process using [update-markdown](https://github.com/bahmutov/update-markdown).
 
 ## Contributors
 
