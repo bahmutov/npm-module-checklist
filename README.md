@@ -2,9 +2,12 @@
 
 > Steps to check when starting, working and publishing a module to NPM
 
-[ ] - setup continuous integration server, like [TravisCI][travis] or [CircleCI][circle].
-
 [ ] - run linting and unit tests on each commit locally. [pre-git][pre-git], [ghooks][ghooks]
+
+[ ] - validate commit message using [pre-git][pre-git] or [commitizen][commitizen]. This
+enables other tools, like intelligent release notes.
+
+[ ] - setup continuous integration server, like [TravisCI][travis] or [CircleCI][circle].
 
 [ ] - check module published size and white list only necessary files, [tutorial][module size]
 
@@ -12,11 +15,13 @@
 and avoid breaking [semver][semver]. This is [important][semver important],
 but is currently [broken][broken semver] in too many projects.
 
-[travis]: https://travis-ci.org/
-[circle]: https://circleci.com/
-
 [pre-git]: https://github.com/bahmutov/pre-git
 [ghooks]: https://www.npmjs.com/package/ghooks
+
+[commitizen]: https://www.npmjs.com/package/commitizen
+
+[travis]: https://travis-ci.org/
+[circle]: https://circleci.com/
 
 [module size]: http://glebbahmutov.com/blog/smaller-published-NPM-modules/
 
