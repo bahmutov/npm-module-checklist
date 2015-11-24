@@ -36,6 +36,13 @@ Use [save-exact][save-exact] NPM setting and [exact-semver][exact-semver] to enf
 - [ ] catch missing or invalid `package.json` values using [grunt-nice-package][grunt-nice-package] 
 or [fixpack][fixpack]
 
+- [ ] write simple installation commands for your module
+
+- [ ] write "quick intro" example showing the main feature of your module
+
+- [ ] add CONTRIBUTING.md file with clear guidelines how others can add new features or fix bugs
+in your module. [Atom editor][atom] and [lodash][lodash] have excellent examples to follow.
+
 [egghead]: https://egghead.io
 [egghead series]: https://egghead.io/series/how-to-write-an-open-source-javascript-library
 
@@ -74,5 +81,8 @@ or [fixpack][fixpack]
 
 [grunt-nice-package]: https://github.com/bahmutov/grunt-nice-package
 [fixpack]: https://github.com/henrikjoreteg/fixpack
+
+[atom]: https://github.com/atom/atom/blob/master/CONTRIBUTING.md
+[lodash]: https://github.com/lodash/lodash/blob/master/CONTRIBUTING.md
 
 Source: [npm-module-checklist](https://github.com/bahmutov/npm-module-checklist)

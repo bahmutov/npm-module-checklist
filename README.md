@@ -33,12 +33,27 @@ Use [save-exact](https://docs.npmjs.com/misc/config#save-exact) NPM setting and 
 - [ ] setup a script to reliably update out of date dependencies using [next-update](https://github.com/bahmutov/next-update#install)
 - [ ] catch missing or invalid `package.json` values using [grunt-nice-package](https://github.com/bahmutov/grunt-nice-package) 
 or [fixpack](https://github.com/henrikjoreteg/fixpack)
+- [ ] write simple installation commands for your module
+- [ ] write &quot;quick intro&quot; example showing the main feature of your module
+- [ ] add CONTRIBUTING.md file with clear guidelines how others can add new features or fix bugs
+in your module. [Atom editor](https://github.com/atom/atom/blob/master/CONTRIBUTING.md) and [lodash](https://github.com/lodash/lodash/blob/master/CONTRIBUTING.md) have excellent examples to follow.
 
 Source: [npm-module-checklist](https://github.com/bahmutov/npm-module-checklist)
 
 ## Advanced
 If you include the separate checklist file, you can automatically insert / update it inside the README.
 Setup the markdown update as a step in your build process using [update-markdown](https://github.com/bahmutov/update-markdown).
+
+## Contributing
+Everyone is welcome to submit pull requests with new content.
+I just ask to check before submitting a new content that:
+
+
+- it is not covered by an item that already is in the list.
+- if there is an [open issue](https://github.com/bahmutov/npm-module-checklist/issues),
+please reference it in your commit message.
+You can even check the list of issues from command line before committing `npm run issues`.
+- has links to an explanation *why it is a good idea* and tools that help accomplish it.
 
 ## Contributors
 

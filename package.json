@@ -4,7 +4,9 @@
   "description": "Steps to check when starting, working and publishing a module to NPM",
   "main": "index.js",
   "scripts": {
-    "build": "um README.md '## Checklist' CHECKLIST.md",
+    "build": "npm run update-checklist && npm run update-contributing",
+    "update-checklist": "um README.md '## Checklist' CHECKLIST.md",
+    "update-contributing": "um README.md '## Contributing' CONTRIBUTING.md",
     "test": "npm run nice",
     "commit": "git-issues && commit-wizard",
     "issues": "git-issues",
