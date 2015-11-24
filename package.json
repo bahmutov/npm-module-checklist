@@ -41,9 +41,13 @@
   "config": {
     "pre-git": {
       "commit-msg": "validate-commit-msg",
-      "pre-commit": [],
+      "pre-commit": [
+        "npm run build"
+      ],
       "pre-push": [],
-      "post-commit": [],
+      "post-commit": [
+        "npm version"
+      ],
       "post-merge": []
     }
   },
