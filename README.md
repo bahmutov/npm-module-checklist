@@ -1,9 +1,10 @@
 # npm-module-checklist
 > Steps to check when starting, working and publishing a module to NPM
 
-You can [add](https://github.com/bahmutov/update-markdown) 
-the included [CHECKLIST.md](CHECKLIST.md) into your project,
+You can add the included [CHECKLIST.md](CHECKLIST.md) into your project,
 or copy it into your README.md; then check items off as you go.
+You can even keep it separate and just update the README as part of the build
+using [update-markdown](https://github.com/bahmutov/update-markdown).
 
 ## Checklist
 
