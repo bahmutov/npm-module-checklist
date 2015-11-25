@@ -34,6 +34,9 @@ Use [save-exact][save-exact] NPM setting and [exact-semver][exact-semver] to enf
 - [ ] setup a script to reliably update out of date dependencies using [next-update][next-update install]
   - [ ] setup automatic pull requests when newer versions of dependencies appear [greenkeeper.io][greenkeeper]
 
+- [ ] if writing a CLI tool, add a way to check if it is out of date and should be upgraded;
+[update-notifier][update-notifier]
+
 - [ ] catch missing or invalid `package.json` values using [grunt-nice-package][grunt-nice-package]
 or [fixpack][fixpack]
 
@@ -43,6 +46,7 @@ or [fixpack][fixpack]
 
 - [ ] add CONTRIBUTING.md file with clear guidelines how others can add new features or fix bugs
 in your module. [Atom editor][atom] and [lodash][lodash] have excellent examples to follow.
+When GitHub finds a CONTRIBUTING.md file it [shows a message][contributing] to anyone opening an issue.
 
 - [ ] generate documentation automatically. [xplain][xplain] is my own tool for JS to HTML/Markdown
 generation
@@ -90,11 +94,13 @@ or by looking up `npm home package-name`
 [next-update install]: https://github.com/bahmutov/next-update#install
 [greenkeeper]: http://greenkeeper.io/
 
+[update-notifier]: https://github.com/yeoman/update-notifier
 [grunt-nice-package]: https://github.com/bahmutov/grunt-nice-package
 [fixpack]: https://github.com/henrikjoreteg/fixpack
 
 [atom]: https://github.com/atom/atom/blob/master/CONTRIBUTING.md
 [lodash]: https://github.com/lodash/lodash/blob/master/CONTRIBUTING.md
+[contributing]: https://github.com/blog/1184-contributing-guidelines
 
 [xplain]: https://github.com/bahmutov/xplain
 

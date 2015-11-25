@@ -40,12 +40,15 @@ but is currently [broken](https://www.youtube.com/watch?v=tc2UgG5L7WM) in too ma
 Use [save-exact](https://docs.npmjs.com/misc/config#save-exact) NPM setting and [exact-semver](https://github.com/bahmutov/exact-semver) to enforce it.
 - [ ] setup a script to reliably update out of date dependencies using [next-update](https://github.com/bahmutov/next-update#install)
  - [ ] setup automatic pull requests when newer versions of dependencies appear [greenkeeper.io](http://greenkeeper.io/)
+- [ ] if writing a CLI tool, add a way to check if it is out of date and should be upgraded;
+[update-notifier](https://github.com/yeoman/update-notifier)
 - [ ] catch missing or invalid `package.json` values using [grunt-nice-package](https://github.com/bahmutov/grunt-nice-package)
 or [fixpack](https://github.com/henrikjoreteg/fixpack)
 - [ ] write simple installation commands for your module
 - [ ] write &quot;quick intro&quot; example showing the main feature of your module
 - [ ] add CONTRIBUTING.md file with clear guidelines how others can add new features or fix bugs
 in your module. [Atom editor](https://github.com/atom/atom/blob/master/CONTRIBUTING.md) and [lodash](https://github.com/lodash/lodash/blob/master/CONTRIBUTING.md) have excellent examples to follow.
+When GitHub finds a CONTRIBUTING.md file it [shows a message](https://github.com/blog/1184-contributing-guidelines) to anyone opening an issue.
 - [ ] generate documentation automatically. [xplain](https://github.com/bahmutov/xplain) is my own tool for JS to HTML/Markdown
 generation
 - [ ] place most of the public API documentation in README file for simple retrieval.
