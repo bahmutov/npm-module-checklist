@@ -9,6 +9,7 @@ or copy it into your README.md; then check items off as you go. And use one of t
 
 ```
 [![follows npm checklist badge](https://img.shields.io/badge/follows-npm%20checklist-brightgreen.svg)](https://github.com/bahmutov/npm-module-checklist#readme)
+[![badge alternate](https://img.shields.io/badge/%E2%98%B0-%E2%9C%93-brightgreen.svg)](https://github.com/bahmutov/npm-module-checklist#readme)
 ```
 ## Checklist
 
