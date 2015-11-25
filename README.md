@@ -2,15 +2,18 @@
 > Steps to check when starting, working and publishing a module to NPM
 
 You can add the included [CHECKLIST.md](CHECKLIST.md) into your project,
-or copy it into your README.md; then check items off as you go. And use one of the two badges
+or copy it into your README.md; then check items off as you go.
+Use one of the two badges to let everyone know your module is solid.
 
-[![npm checklist badge](https://img.shields.io/badge/follows-npm%20checklist-brightgreen.svg)](https://github.com/bahmutov/npm-module-checklist#readme)
-[![badge alternate](https://img.shields.io/badge/%E2%98%B0-%E2%9C%93-brightgreen.svg)](https://github.com/bahmutov/npm-module-checklist#readme)
+[![npm checklist badge](https://img.shields.io/badge/follows-npm%20checklist-brightgreen.svg)](CHECKLIST.md)
+[![badge alternate](https://img.shields.io/badge/%E2%98%B0-%E2%9C%93-brightgreen.svg)](CHECKLIST.md)
 
 ```
-[![follows npm checklist badge](https://img.shields.io/badge/follows-npm%20checklist-brightgreen.svg)](https://github.com/bahmutov/npm-module-checklist#readme)
-[![badge alternate](https://img.shields.io/badge/%E2%98%B0-%E2%9C%93-brightgreen.svg)](https://github.com/bahmutov/npm-module-checklist#readme)
+[![badge 1](https://img.shields.io/badge/follows-npm%20checklist-brightgreen.svg)](CHECKLIST.md)
+[![badge 2](https://img.shields.io/badge/%E2%98%B0-%E2%9C%93-brightgreen.svg)](CHECKLIST.md)
 ```
+Example: [manpm](https://github.com/bahmutov/manpm)
+
 ## Checklist
 
 - [ ] watch the [egghead.io](https://egghead.io) series [How to Write an Open Source JavaScript Library](https://egghead.io/series/how-to-write-an-open-source-javascript-library);
