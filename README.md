@@ -50,7 +50,7 @@ in your module. [Atom editor](https://github.com/atom/atom/blob/master/CONTRIBUT
 generation
 - [ ] place most of the public API documentation in README file for simple retrieval.
 This allows other developers to find relevant sections right from the command line [manpm](https://github.com/bahmutov/manpm)
-or by looking up `npm home &amp;lt;package name&amp;gt;`
+or by looking up `npm home package-name`
 
 Source: [npm-module-checklist](https://github.com/bahmutov/npm-module-checklist)
 

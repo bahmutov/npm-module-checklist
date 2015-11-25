@@ -49,7 +49,7 @@ generation
 
 - [ ] place most of the public API documentation in README file for simple retrieval.
 This allows other developers to find relevant sections right from the command line [manpm][manpm]
-or by looking up `npm home <package name>`
+or by looking up `npm home package-name`
 
 [egghead]: https://egghead.io
 [egghead series]: https://egghead.io/series/how-to-write-an-open-source-javascript-library
