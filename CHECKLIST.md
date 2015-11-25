@@ -3,8 +3,8 @@ it is extremely useful for any NPM project (OSS or closed-sourced).
 
 - [ ] start unit testing right away, [pick your unit testing framework][pick testing framework]
 
-- [ ] start linting code to prevent obvious problems, like misspelled variable. 
-[eslint][eslint], [jshint][jshint], [jscs][jscs] or all of them together 
+- [ ] start linting code to prevent obvious problems, like misspelled variable.
+[eslint][eslint], [jshint][jshint], [jscs][jscs] or all of them together
 [gulp-lint-everything][gulp-lint-everything]
 
 - [ ] run linting and unit tests on each commit locally. [pre-git][pre-git], [ghooks][ghooks]
@@ -18,8 +18,8 @@ enables other tools, like intelligent release notes.
 
 - [ ] [add badges][badges] to the README to make broken unit tests or out of date dependencies visible
   * ci server badge
-  * published NPM package info
-  * production and dev dependencies being out of date
+  * published NPM package info [NodeICO][nodeico]
+  * production and dev dependencies being out of date [david-dm][david-dm]
   * semantic release badge
 
 - [ ] check module published size and white list only necessary files, [tutorial][module size]
@@ -28,12 +28,13 @@ enables other tools, like intelligent release notes.
 and avoid breaking [semver][semver]. This is [important][semver important],
 but is currently [broken][broken semver] in too many projects. Even this checklist is using semver!
 
-- [ ] avoid surprizes by using exact versions of the top level dependencies. 
+- [ ] avoid surprizes by using exact versions of the top level dependencies.
 Use [save-exact][save-exact] NPM setting and [exact-semver][exact-semver] to enforce it.
 
 - [ ] setup a script to reliably update out of date dependencies using [next-update][next-update install]
+  - [ ] setup automatic pull requests when newer versions of dependencies appear [greenkeeper.io][greenkeeper]
 
-- [ ] catch missing or invalid `package.json` values using [grunt-nice-package][grunt-nice-package] 
+- [ ] catch missing or invalid `package.json` values using [grunt-nice-package][grunt-nice-package]
 or [fixpack][fixpack]
 
 - [ ] write simple installation commands for your module
@@ -42,6 +43,13 @@ or [fixpack][fixpack]
 
 - [ ] add CONTRIBUTING.md file with clear guidelines how others can add new features or fix bugs
 in your module. [Atom editor][atom] and [lodash][lodash] have excellent examples to follow.
+
+- [ ] generate documentation automatically. [xplain][xplain] is my own tool for JS to HTML/Markdown
+generation
+
+- [ ] place most of the public API documentation in README file for simple retrieval.
+This allows other developers to find relevant sections right from the command line [manpm][manpm]
+or by looking up `npm home <package name>`
 
 [egghead]: https://egghead.io
 [egghead series]: https://egghead.io/series/how-to-write-an-open-source-javascript-library
@@ -66,6 +74,8 @@ in your module. [Atom editor][atom] and [lodash][lodash] have excellent examples
 [circle]: https://circleci.com/
 
 [badges]: http://glebbahmutov.com/blog/tightening-node-project/
+[nodeico]: https://nodei.co/
+[david-dm]: https://david-dm.org/
 
 [module size]: http://glebbahmutov.com/blog/smaller-published-NPM-modules/
 
@@ -78,11 +88,16 @@ in your module. [Atom editor][atom] and [lodash][lodash] have excellent examples
 [exact-semver]: https://github.com/bahmutov/exact-semver
 
 [next-update install]: https://github.com/bahmutov/next-update#install
+[greenkeeper]: http://greenkeeper.io/
 
 [grunt-nice-package]: https://github.com/bahmutov/grunt-nice-package
 [fixpack]: https://github.com/henrikjoreteg/fixpack
 
 [atom]: https://github.com/atom/atom/blob/master/CONTRIBUTING.md
 [lodash]: https://github.com/lodash/lodash/blob/master/CONTRIBUTING.md
+
+[xplain]: https://github.com/bahmutov/xplain
+
+[manpm]: https://github.com/bahmutov/manpm
 
 Source: [npm-module-checklist](https://github.com/bahmutov/npm-module-checklist)
