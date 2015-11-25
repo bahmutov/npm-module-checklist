@@ -11,8 +11,8 @@ or copy it into your README.md; then check items off as you go. And there is a b
 - [ ] watch the [egghead.io](https://egghead.io) series [How to Write an Open Source JavaScript Library](https://egghead.io/series/how-to-write-an-open-source-javascript-library);
 it is extremely useful for any NPM project (OSS or closed-sourced).
 - [ ] start unit testing right away, [pick your unit testing framework](http://glebbahmutov.com/blog/picking-javascript-testing-framework/)
-- [ ] start linting code to prevent obvious problems, like misspelled variable.
-[eslint](http://eslint.org/), [jshint](http://jshint.com/docs/), [jscs](http://jscs.info/) or all of them together
+- [ ] start linting code to prevent obvious problems, like misspelled variable. 
+[eslint](http://eslint.org/), [jshint](http://jshint.com/docs/), [jscs](http://jscs.info/) or all of them together 
 [gulp-lint-everything](https://github.com/bahmutov/gulp-lint-everything)
 - [ ] run linting and unit tests on each commit locally. [pre-git](https://github.com/bahmutov/pre-git), [ghooks](https://www.npmjs.com/package/ghooks)
 - [ ] validate commit message using [pre-git](https://github.com/bahmutov/pre-git) or [commitizen](https://www.npmjs.com/package/commitizen) with [validate-commit-msg](https://www.npmjs.com/package/validate-commit-msg). This
@@ -28,10 +28,10 @@ enables other tools, like intelligent release notes.
 - [ ] setup [semantic-release](https://github.com/semantic-release/semantic-release) to automate publishing
 and avoid breaking [semver](http://semver.org/). This is [important](https://medium.com/javascript-scene/software-versions-are-broken-3d2dc0da0783#.h96ppopx3),
 but is currently [broken](https://www.youtube.com/watch?v=tc2UgG5L7WM) in too many projects. Even this checklist is using semver!
-- [ ] avoid surprizes by using exact versions of the top level dependencies.
+- [ ] avoid surprizes by using exact versions of the top level dependencies. 
 Use [save-exact](https://docs.npmjs.com/misc/config#save-exact) NPM setting and [exact-semver](https://github.com/bahmutov/exact-semver) to enforce it.
 - [ ] setup a script to reliably update out of date dependencies using [next-update](https://github.com/bahmutov/next-update#install)
-- [ ] catch missing or invalid `package.json` values using [grunt-nice-package](https://github.com/bahmutov/grunt-nice-package)
+- [ ] catch missing or invalid `package.json` values using [grunt-nice-package](https://github.com/bahmutov/grunt-nice-package) 
 or [fixpack](https://github.com/henrikjoreteg/fixpack)
 - [ ] write simple installation commands for your module
 - [ ] write &quot;quick intro&quot; example showing the main feature of your module
