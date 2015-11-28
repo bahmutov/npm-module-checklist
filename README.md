@@ -23,6 +23,8 @@ it is extremely useful for any NPM project (OSS or closed-sourced).
 [eslint](http://eslint.org/), [jshint](http://jshint.com/docs/), [jscs](http://jscs.info/) or all of them together
 [gulp-lint-everything](https://github.com/bahmutov/gulp-lint-everything)
 - [ ] run linting and unit tests on each commit locally. [pre-git](https://github.com/bahmutov/pre-git), [ghooks](https://www.npmjs.com/package/ghooks)
+- [ ] use code quality as a service tool to fight creeping code complexity. [Codacy](https://codacy.com/),
+[CodeClimate](https://codeclimate.com/), [BitHound](https://www.bithound.io/)
 - [ ] validate commit message using [pre-git](https://github.com/bahmutov/pre-git) or [commitizen](https://www.npmjs.com/package/commitizen) with [validate-commit-msg](https://www.npmjs.com/package/validate-commit-msg). This
 enables other tools, like intelligent release notes.
 - [ ] show the project&#39;s GitHub open issues on demand or on commit using [git-issues](https://www.npmjs.com/package/git-issues)
@@ -54,6 +56,7 @@ generation
 - [ ] place most of the public API documentation in README file for simple retrieval.
 This allows other developers to find relevant sections right from the command line [manpm](https://github.com/bahmutov/manpm)
 or by looking up `npm home package-name`
+- [ ] use a library to output the correct plural forms of words in the user messages [pluralize](https://github.com/blakeembrey/pluralize)
 
 Source: [npm-module-checklist](https://github.com/bahmutov/npm-module-checklist)
 

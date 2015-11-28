@@ -9,6 +9,9 @@ it is extremely useful for any NPM project (OSS or closed-sourced).
 
 - [ ] run linting and unit tests on each commit locally. [pre-git][pre-git], [ghooks][ghooks]
 
+- [ ] use code quality as a service tool to fight creeping code complexity. [Codacy][Codacy],
+  [CodeClimate][CodeClimate], [BitHound][BitHound]
+
 - [ ] validate commit message using [pre-git][pre-git] or [commitizen][commitizen] with [validate-commit-msg][validate-commit-msg]. This
 enables other tools, like intelligent release notes.
 
@@ -55,6 +58,8 @@ generation
 This allows other developers to find relevant sections right from the command line [manpm][manpm]
 or by looking up `npm home package-name`
 
+- [ ] use a library to output the correct plural forms of words in the user messages [pluralize][pluralize]
+
 [egghead]: https://egghead.io
 [egghead series]: https://egghead.io/series/how-to-write-an-open-source-javascript-library
 
@@ -67,6 +72,10 @@ or by looking up `npm home package-name`
 
 [pre-git]: https://github.com/bahmutov/pre-git
 [ghooks]: https://www.npmjs.com/package/ghooks
+
+[Codacy]: https://codacy.com/
+[CodeClimate]: https://codeclimate.com/
+[BitHound]: https://www.bithound.io/
 
 [commitizen]: https://www.npmjs.com/package/commitizen
 
@@ -105,5 +114,7 @@ or by looking up `npm home package-name`
 [xplain]: https://github.com/bahmutov/xplain
 
 [manpm]: https://github.com/bahmutov/manpm
+
+[pluralize]: https://github.com/blakeembrey/pluralize
 
 Source: [npm-module-checklist](https://github.com/bahmutov/npm-module-checklist)
