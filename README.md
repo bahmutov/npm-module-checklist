@@ -27,6 +27,8 @@ it is extremely useful for any NPM project (OSS or closed-sourced).
 [CodeClimate](https://codeclimate.com/), [BitHound](https://www.bithound.io/)
 - [ ] validate commit message using [pre-git](https://github.com/bahmutov/pre-git) or [commitizen](https://www.npmjs.com/package/commitizen) with [validate-commit-msg](https://www.npmjs.com/package/validate-commit-msg). This
 enables other tools, like intelligent release notes.
+- [ ] use logging library to show more information during debugging or verbose mode.
+[debug](https://github.com/visionmedia/debug), [logdown](https://github.com/caiogondim/logdown)
 - [ ] show the project&#39;s GitHub open issues on demand or on commit using [git-issues](https://www.npmjs.com/package/git-issues)
 - [ ] setup continuous integration server, like [TravisCI](https://travis-ci.org/) or [CircleCI](https://circleci.com/) (or wait until you set up [semantic-release](https://github.com/semantic-release/semantic-release) which will set up [TravisCI](https://travis-ci.org/) for you).
 - [ ] [add badges](http://glebbahmutov.com/blog/tightening-node-project/) to the README to make broken unit tests or out of date dependencies visible

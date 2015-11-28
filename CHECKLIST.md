@@ -15,6 +15,9 @@ it is extremely useful for any NPM project (OSS or closed-sourced).
 - [ ] validate commit message using [pre-git][pre-git] or [commitizen][commitizen] with [validate-commit-msg][validate-commit-msg]. This
 enables other tools, like intelligent release notes.
 
+- [ ] use logging library to show more information during debugging or verbose mode.
+[debug][debug], [logdown][logdown]
+
 - [ ] show the project's GitHub open issues on demand or on commit using [git-issues][git-issues]
 
 - [ ] setup continuous integration server, like [TravisCI][travis] or [CircleCI][circle] (or wait until you set up [semantic-release][semantic-release] which will set up [TravisCI][travis] for you).
@@ -82,6 +85,9 @@ or by looking up `npm home package-name`
 [BitHound]: https://www.bithound.io/
 
 [commitizen]: https://www.npmjs.com/package/commitizen
+
+[debug]: https://github.com/visionmedia/debug
+[logdown]: https://github.com/caiogondim/logdown
 
 [validate-commit-msg]: https://www.npmjs.com/package/validate-commit-msg
 
