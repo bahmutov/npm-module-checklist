@@ -34,6 +34,8 @@ enables other tools, like intelligent release notes.
  - published NPM package info [NodeICO](https://nodei.co/)
  - production and dev dependencies being out of date [david-dm](https://david-dm.org/)
  - semantic release badge
+ - code quality badges
+ - insecure code or dependencies
 - [ ] check module published size and white list only necessary files, [tutorial](http://glebbahmutov.com/blog/smaller-published-NPM-modules/)
 - [ ] setup [semantic-release](https://github.com/semantic-release/semantic-release) to automate publishing
 and avoid breaking [semver](http://semver.org/). This is [important](https://medium.com/javascript-scene/software-versions-are-broken-3d2dc0da0783#.h96ppopx3),
@@ -44,6 +46,7 @@ Use [save-exact](https://docs.npmjs.com/misc/config#save-exact) NPM setting and 
  - [ ] setup automatic pull requests when newer versions of dependencies appear [greenkeeper.io](http://greenkeeper.io/)
 - [ ] if writing a CLI tool, add a way to check if it is out of date and should be upgraded;
 [update-notifier](https://github.com/yeoman/update-notifier)
+- [ ] scan dependencies and code for known security vulnerabilities. [snyk](https://www.npmjs.com/package/snyk), [NodeSecurity](https://nodesecurity.io/)
 - [ ] catch missing or invalid `package.json` values using [grunt-nice-package](https://github.com/bahmutov/grunt-nice-package)
 or [fixpack](https://github.com/henrikjoreteg/fixpack)
 - [ ] write simple installation commands for your module

@@ -24,6 +24,8 @@ enables other tools, like intelligent release notes.
   * published NPM package info [NodeICO][nodeico]
   * production and dev dependencies being out of date [david-dm][david-dm]
   * semantic release badge
+  * code quality badges
+  * insecure code or dependencies
 
 - [ ] check module published size and white list only necessary files, [tutorial][module size]
 
@@ -39,6 +41,8 @@ Use [save-exact][save-exact] NPM setting and [exact-semver][exact-semver] to enf
 
 - [ ] if writing a CLI tool, add a way to check if it is out of date and should be upgraded;
 [update-notifier][update-notifier]
+
+- [ ] scan dependencies and code for known security vulnerabilities. [snyk][snyk], [NodeSecurity][NodeSecurity]
 
 - [ ] catch missing or invalid `package.json` values using [grunt-nice-package][grunt-nice-package]
 or [fixpack][fixpack]
@@ -104,6 +108,10 @@ or by looking up `npm home package-name`
 [greenkeeper]: http://greenkeeper.io/
 
 [update-notifier]: https://github.com/yeoman/update-notifier
+
+[snyk]: https://www.npmjs.com/package/snyk
+[NodeSecurity]: https://nodesecurity.io/
+
 [grunt-nice-package]: https://github.com/bahmutov/grunt-nice-package
 [fixpack]: https://github.com/henrikjoreteg/fixpack
 
