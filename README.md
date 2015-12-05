@@ -22,7 +22,7 @@ it is extremely useful for any NPM project (OSS or closed-sourced).
 - [ ] start linting code to prevent obvious problems, like misspelled variable.
 [eslint](http://eslint.org/), [jshint](http://jshint.com/docs/), [jscs](http://jscs.info/) or all of them together
 [gulp-lint-everything](https://github.com/bahmutov/gulp-lint-everything)
-- [ ] run linting and unit tests on each commit locally. [pre-git](https://github.com/bahmutov/pre-git), [ghooks](https://www.npmjs.com/package/ghooks)
+- [ ] run linting and unit tests on each commit locally. [pre-git](https://github.com/bahmutov/pre-git), [ghooks](https://www.npmjs.com/package/ghooks) and use [ban-sensitive-files](http://npm.im/ban-sensitive-files) to avoid committing sensative files (like private keys).
 - [ ] use code quality as a service tool to fight creeping code complexity. [Codacy](https://codacy.com/),
 [CodeClimate](https://codeclimate.com/), [BitHound](https://www.bithound.io/)
 - [ ] validate commit message using [pre-git](https://github.com/bahmutov/pre-git) or [commitizen](https://www.npmjs.com/package/commitizen) with [validate-commit-msg](https://www.npmjs.com/package/validate-commit-msg). This
